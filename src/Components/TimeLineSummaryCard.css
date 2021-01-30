@@ -1,0 +1,35 @@
+.confirmed-cases {
+    color:var(--primary-confirmed-cases);
+}
+
+.confirmed-cases__active {
+    background-color: var(--confirmed-cases-card-active-background);
+}
+
+.confirmed-cases .delta {
+    color: var(--secondary-confirmed-cases);
+}
+
+.deceased-cases {
+    color:var(--primary-deceased-cases);
+}
+
+.deceased-cases__active {
+    background-color: var(--deceased-cases-card-active-background);
+}
+
+.deceased-cases .delta {
+    color:var(--secondary-deceased-cases);
+}
+
+.recovered-cases {
+    color:var(--primary-recovered-cases)
+}
+
+.recovered-cases__active {
+    background-color: var(--recovered-cases-card-active-background);
+}
+
+.recovered-cases .delta {
+    color:var(--secondary-recovered-cases)
+}
